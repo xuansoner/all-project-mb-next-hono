@@ -1,0 +1,6 @@
+github创建仓库
+git remote add origin https://github.com/xuansoner/仓库名.git
+git branch -M main
+git add .
+git commit -m "nextjs和honojs整合模板"
+git push -u origin main
