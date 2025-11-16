@@ -1,6 +1,6 @@
 github创建仓库
-git remote add origin https://github.com/xuansoner/仓库名.git
-git branch -M main
-git add .
-git commit -m "nextjs和honojs整合模板"
-git push -u origin main
+git remote add origin(远程仓库名称(任意)) https://github.com/xuansoner/仓库名.git
+git branch -M main(分支名称)    // 设置本地当前分支名称
+git add .  // 暂存所有更改
+git commit -m "nextjs和honojs整合模板"  // 创建提交记录	将暂存区的更改打包成一个版本快照，并添加描述信息 
+git push -u origin(远程仓库名称) main(本地当前分支名称)  // 推送到远程仓库
