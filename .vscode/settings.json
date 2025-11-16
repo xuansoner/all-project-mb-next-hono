@@ -1,0 +1,21 @@
+// 该文件为vscode的配置, 当项目中定义该该配置 则优先使用该文件中的配置信息
+// 若未定义该文件则优先使用vscode本身的配置文件
+{
+  // 当保存文件是是否格式化 (格式化遵循.prettier.js中的配置)
+  "editor.formatOnSave": true,
+  // 保存的使用进行什么操作
+  "editor.codeActionsOnSave": {
+    // 保存时是否自动导入缺失的依赖
+    "source.addMissingImports.ts": "always",
+    // 保存时自动删除未使用的依赖
+    "source.organizeImports": "always",
+    "source.fixAll.eslint": "always"
+  },
+  // 任意css文件中使用 tailwindcss不警告
+  "files.associations": { "*.css": "tailwindcss" },
+  // 当前项目使用的ts版本为 workspace中引入ts依赖的版本  而非本地的ts版本
+  // 在任意一个ts/tsx文件中按 ctrl + shift + P 输入 typescript version
+  // 选择workspace 版本ts
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": ["nextauth", "trivago", "userinfo"]
+}
