@@ -4,3 +4,7 @@ git branch -M main(分支名称)    // 设置本地当前分支名称
 git add .  // 暂存所有更改
 git commit -m "nextjs和honojs整合模板"  // 创建提交记录	将暂存区的更改打包成一个版本快照，并添加描述信息 
 git push -u origin(远程仓库名称) main(本地当前分支名称)  // 推送到远程仓库
+
+补充: 
+先拉取远程更改：git pull origin main --allow-unrelated-histories
+或者强制推送：git push -f origin main（会覆盖远程内容）
